@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+ <PropertyGroup>
+  <OutputType>Exe</OutputType>
+  <TargetFramework>net461</TargetFramework>
+  <RootNamespace>Microsoft.Examples</RootNamespace>
+ </PropertyGroup>
+
+ <ItemGroup>
+  <Reference Include="Microsoft.CSharp" />
+  <Reference Include="System" />
+ </ItemGroup>
+
+ <ItemGroup>
+  <PackageReference Include="Microsoft.AspNet.WebApi.OwinSelfHost" Version="5.2.7" />
+  <PackageReference Include="Microsoft.AspNet.WebApi.Versioning" Version="3.0.3" />
+ </ItemGroup>
+
+</Project>
